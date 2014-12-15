@@ -16,6 +16,7 @@
 
 @end
 
+
 @implementation NewsDetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
