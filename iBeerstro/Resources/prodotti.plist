@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>taglieriList</key>
+	<array>
+		<string>San Colombano</string>
+		<string>Faro</string>
+		<string>Brabante</string>
+		<string>Monument bleu</string>
+	</array>
+	<key>taglieri</key>
+	<dict>
+		<key>San Colombano</key>
+		<dict>
+			<key>description</key>
+			<string>Tagliere di Salumi Piacentini: Pancetta, Salame, Coppa e Fiocco
+
+...a noi è piaciuto con una:
+-Ipa
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string>san_colombano.jpg</string>
+		</dict>
+		<key>Faro</key>
+		<dict>
+			<key>description</key>
+			<string>Tagliere di 5 Formaggi misti e 1 erborinato
+
+...a noi è piaciuto con una:
+-Double Ipa
+-Belgian Strong Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Monument bleu</key>
+		<dict>
+			<key>description</key>
+			<string>Degustazione di 4 Formaggi erborinati
+
+...a noi è piaciuto con una:
+-Ipa
+-Sour Ale
+-Lambic</string>
+			<key>imageName</key>
+			<string>monument_bleu.jpg</string>
+		</dict>
+		<key>Brabante</key>
+		<dict>
+			<key>description</key>
+			<string>Tagliere misto di 3 Salumi e 3 Formaggi
+
+...a noi è piaciuto con una:
+-Ipa
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string>brabante.jpg</string>
+		</dict>
+	</dict>
+	<key>hamburgerList</key>
+	<array>
+		<string>Gambrinus</string>
+		<string>Diverso</string>
+		<string>Luigi XIV</string>
+		<string>Salaburger</string>
+	</array>
+	<key>hamburgers</key>
+	<dict>
+		<key>Diverso</key>
+		<dict>
+			<key>description</key>
+			<string>Hamburger (150gr) di carne Chianina macinata al momento, Bacon Fumè, Formaggio Casera, Salsa Aioli del Beerstrò
+e Pomodoro accompagnato dalle nostre patatine chips con buccia			
+...a noi è piaciuto con una:
+-Ipa
+-Strong Bitter</string>
+			<key>imageName</key>
+			<string>diverso.jpg</string>
+		</dict>
+		<key>Luigi XIV</key>
+		<dict>
+			<key>description</key>
+			<string>Hamburger (150gr) di carne Chianina macinata al momento, Parmigiano Reggiano, Pomodoro, Rucola e Stokes Real Barbeque Sauce accompagnato dalle nostre patatine chips con buccia
+
+...a noi è piaciuto con una:
+-IPA 
+-Smoked</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Salaburger</key>
+		<dict>
+			<key>description</key>
+			<string>Pasta di Salame (150gr), Salsa Aioli del Beerstrò, Cipolla rossa e Peperoni grigliati accompagnato dalle nostre patatine chips con buccia
+
+
+...a noi è piaciuto con una:
+-Imperial Ipa 
+-Bitter</string>
+			<key>imageName</key>
+			<string>salaburger.jpg</string>
+		</dict>
+		<key>Gambrinus</key>
+		<dict>
+			<key>description</key>
+			<string>Hamburger (150gr) di carne Chianina macinata al momento, Sale Affumicato, Cheddar, Stokes Real Barbeque Sauce e Bacon Fumè accompagnato dalle nostre patatine chips con buccia
+
+...a noi è piaciuto con una:
+-Bock  -Rauch</string>
+			<key>imageName</key>
+			<string>gambrinus.jpg</string>
+		</dict>
+	</dict>
+	<key>secondiList</key>
+	<array>
+		<string>Saaz</string>
+		<string>Ninkasi</string>
+		<string>Columbus</string>
+		<string>Black Rock</string>
+		<string>Challenger</string>
+	</array>
+	<key>secondi</key>
+	<dict>
+		<key>Challenger</key>
+		<dict>
+			<key>description</key>
+			<string>Tomino e Scamorza alla piastra accompagnati da Verdure grigliate
+
+...a noi è piaciuto con una:
+-Apa
+-Helles</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Columbus</key>
+		<dict>
+			<key>description</key>
+			<string>Filetto di Seerlad Selezione Bembo (200gr) accompagnato dalle nostre patatine chips con buccia o peperoni grigliati
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼(secondo disponibilità)
+
+...a noi è piaciuto con una:
+-Apa
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Black Rock</key>
+		<dict>
+			<key>description</key>
+			<string>Costata di Seerlad Selezione Bembo (400gr) accompagnata dalle nostre patatine chips con buccia o peperoni grigliati
+
+...a noi è piaciuto con una:
+-Bitter
+-Ipa</string>
+			<key>imageName</key>
+			<string>blackrock.jpg</string>
+		</dict>
+		<key>Ninkasi</key>
+		<dict>
+			<key>description</key>
+			<string>Rucola, noci e Olive taggiasche
+
+...a noi è piaciuto con una:
+-Golden Ale
+-Blond Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Saaz</key>
+		<dict>
+			<key>description</key>
+			<string>Tonno, Fagioli e Cipolle
+
+...a noi è piaciuto con una:
+-Pils
+-Gose</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>dessertList</key>
+	<array>
+		<string>Birramisù</string>
+		<string>Paciarella</string>
+		<string>Crostata</string>
+	</array>
+	<key>dessert</key>
+	<dict>
+		<key>Birramisù</key>
+		<dict>
+			<key>description</key>
+			<string>Tiramisù con birra 
+
+Imperial Stout</string>
+			<key>imageName</key>
+			<string>birramisu2.jpg</string>
+		</dict>
+		<key>Paciarella</key>
+		<dict>
+			<key>description</key>
+			<string>Torta Paesana al cioccolato
+
+...a noi sono piaciuti con una:
+-Stout
+-Porter</string>
+			<key>imageName</key>
+			<string>paciarella.jpg</string>
+		</dict>
+		<key>Crostata</key>
+		<dict>
+			<key>description</key>
+			<string>Crostata con marmellata di frutta</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>paniniList</key>
+	<array>
+		<string>Kurunnu</string>
+		<string>Marduk</string>
+		<string>Ra</string>
+		<string>Fomoriano</string>
+		<string>Sumero</string>
+		<string>Gruyt</string>
+		<string>Vegèta</string>
+		<string>Mortazza</string>
+		<string>Ciccio</string>
+		<string>Stupid</string>
+		<string>Sikaru</string>
+		<string>Pig</string>
+		<string>Smarty</string>
+		<string>Coppino</string>
+		<string>Dracul </string>
+		<string>Ross</string>
+	</array>
+	<key>panini</key>
+	<dict>
+		<key>Pig</key>
+		<dict>
+			<key>description</key>
+			<string>Salame Val Tidone (PC), Formaggio Vaccino Italico,
+Patè d’Olive e Pecorino Romano
+
+...a noi è piaciuto con una:
+-Weizen
+-Golden Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Coppino</key>
+		<dict>
+			<key>description</key>
+			<string>Coppa Val Tidone (PC), Burro Salato e Cipolla Rossa
+
+...a noi è piaciuto con una:
+-Gose 
+-Witbier</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Smarty</key>
+		<dict>
+			<key>description</key>
+			<string>Brescianella Stagionata e Peperoni Grigliati
+
+...a noi è piaciuto con una:
+-Pils
+-Sour Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Dracul</key>
+		<dict>
+			<key>description</key>
+			<string>Pancetta Stufata, Formaggio di Alpeggio Piani di Bobbio, Cipolla rossa, Peperoni Grigliati e Salsa BBQ all’Habanero Selezione Bembo
+
+...a noi è piaciuto con una:
+-Ipa
+-Saison</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Ross</key>
+		<dict>
+			<key>description</key>
+			<string>‘Nduja, Peperoni e Melanzane Grigliate, Cipolla rossa, Mozzarella di Bufala
+
+...a noi è piaciuto con una:
+
+-Pils 
+-Sour Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Marduk</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Crudo D.O.P. con Brie de Nangis
+
+...a noi è piaciuto con una:
+-Ipa
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Sikaru</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Crudo D.O.P.
+con Brebiou (formaggio di pecora)
+
+...a noi è piaciuto con una:
+-Belgian Ale
+-Golden Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Vegèta</key>
+		<dict>
+			<key>description</key>
+			<string>Peperoni Verdi, Patè d’olive verdi, Pecorino Romano, Parmigiano Reggiano, Origano e Capperi
+
+...a noi è piaciuto con una:
+-Golden Ale
+-Kolsch</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Ciccio</key>
+		<dict>
+			<key>description</key>
+			<string>140 gr di Salame Cotto caldo (Salumificio Artigianale Thogan Porri)
+
+...a noi è piaciuto con una:
+-IPA
+-Bock</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Stupid</key>
+		<dict>
+			<key>description</key>
+			<string>Aringa Affumicata sciocca
+con Burro salato e Cipolla rossa
+
+...a noi è piaciuto con una:
+-Smoked
+-Doppelbock</string>
+			<key>imageName</key>
+			<string>stupid.jpg</string>
+		</dict>
+		<key>Sumero</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Crudo D.O.P. con Mozzarella di Bufala
+
+...a noi è piaciuto con una:
+-Pils
+-Blonde Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Fomoriano</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Cotto Fumè San Marino con Scamorza Affumicata
+
+...a noi è piaciuto con una:
+-Smoked
+-Ipa</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Mortazza</key>
+		<dict>
+			<key>description</key>
+			<string>Mortadella al Pistacchio, Rucola, Carciofini e Maionese
+
+...a noi è piaciuto con una:
+-Blanche
+-Weisse</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Ra</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Cotto Fumè San Marino con Brie de Nangis
+
+...a noi è piaciuto con una:
+-Apa
+-Rauch</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Gruyt</key>
+		<dict>
+			<key>imageName</key>
+			<string></string>
+			<key>description</key>
+			<string>Toma spalmabile con Zucchine grigliate, sale aromatico e riccioli di limone
+
+...a noi è piaciuto con una:
+-Blanche
+-Belgian Ale</string>
+		</dict>
+		<key>Kurunnu</key>
+		<dict>
+			<key>imageName</key>
+			<string></string>
+			<key>description</key>
+			<string>Prosciutto Cotto Fumè San Marino con Brebiou (formaggio di pecora)
+
+...a noi è piaciuto con una:
+-Golden Ale
+-Apa</string>
+		</dict>
+	</dict>
+	<key>stuzzichiList</key>
+	<array>
+		<string>Patatine chips</string>
+		<string>Taralli artigianali pugliesi</string>
+		<string>Pape satàn aleppe</string>
+		<string>Francy</string>
+		<string>Jessy</string>
+	</array>
+	<key>stuzzichi</key>
+	<dict>
+		<key>Patatine chips</key>
+		<dict>
+			<key>description</key>
+			<string>Patate con buccia affettate
+e fritte al momento!</string>
+			<key>imageName</key>
+			<string>chips.jpg</string>
+		</dict>
+		<key>Pape satàn aleppe</key>
+		<dict>
+			<key>description</key>
+			<string>90gr di Salame Piacentino Dop tagliato a mano
+
+...a noi è piaciuto con una:
+-APA
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string>pape_satan_aleppe.jpg</string>
+		</dict>
+		<key>Taralli artigianali pugliesi</key>
+		<dict>
+			<key>description</key>
+			<string></string>
+			<key>imageName</key>
+			<string>taralli.jpg</string>
+		</dict>
+		<key>Francy</key>
+		<dict>
+			<key>description</key>
+			<string>Bruschetta con peperoni grigliati e origano</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Jessy</key>
+		<dict>
+			<key>description</key>
+			<string>Bruschetta con pomodoro, capperi e mozzarella di bufala</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>rusticiList</key>
+	<array>
+		<string>Veget-one</string>
+		<string>Travo</string>
+		<string>Hay Day</string>
+		<string>Gigia</string>
+		<string>Gallop</string>
+		<string>Cicci-one</string>
+		<string>Galloppele</string>
+		<string>Filett-one</string>
+	</array>
+	<key>rustici</key>
+	<dict>
+		<key>Veget-one</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Verdure Grigliate (Peperoni, Zucchine
+e Melanzane)
+
+...a noi è piaciuto con una:
+-Blanche
+-Lager
+</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Travo</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Pancetta Val Tidone (PC) e Formaggio Vaccino Italico Eridano
+
+...a noi è piaciuto con una:
+-Blond Ale
+-Kolsch
+</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Hay Day</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Pancetta Stufata e Scamorza Affumicata
+
+...a noi è piaciuto con una:
+-Dunkelweizen
+-Apa
+</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Gigia</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a fette, Fiocco Val Tidone (PC), Mozzarella di Bufala, Zucchine Grigliate
+
+...a noi è piaciuto con una:
+-Dunkel
+-Belgian Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Gallop</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Blu di Bufala e Mostarda d’Arancia
+
+...a noi è piaciuto con una:
+-Imperial Ipa
+-Belgian Strong Ale
+</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Cicci-one</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a fette, 140 gr di Salame Cotto caldo e Salsa Aioli del Beerstrò
+
+...a noi è piaciuto con una:
+-IPA
+-Bock
+</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Galloppele</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Mortadella San Marino, Scamorza Affumicata
+
+...a noi è piaciuto con una:
+-Helles
+-Amber Ale</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Filett-one</key>
+		<dict>
+			<key>description</key>
+			<string>Pane a Fette, Filetto di Seerlad e Gorgonzola D.O.P Piccante
+
+...a noi è piaciuto con una:
+-Dunkelweizen
+-Apa</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>piadineList</key>
+	<array>
+		<string>Mortazza</string>
+		<string>Kurunnu</string>
+		<string>Vegèta</string>
+		<string>Tia</string>
+	</array>
+	<key>piadine</key>
+	<dict>
+		<key>Mortazza</key>
+		<dict>
+			<key>description</key>
+			<string>Mortadella al Pistacchio, Rucola, Carciofini e Maionese
+
+...a noi è piaciuto con una:
+-Blanche
+-Weisse</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Kurunnu</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Cotto Fumè San Marino con Rubeola di Langa
+
+...a noi è piaciuto con una:
+-Golden Ale
+-Apa</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Vegèta</key>
+		<dict>
+			<key>description</key>
+			<string>Peperoni Grigliati, Patè d’olive verdi, Pecorino Romano, Parmigiano Reggiano, Origano e Capperi
+
+...a noi è piaciuto con una:
+-Golden Ale
+-Kolsch</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+		<key>Tia</key>
+		<dict>
+			<key>description</key>
+			<string>Prosciutto Crudo 20 mesi, Scamorza Affumicata, Zucchine e Peperoni Grigliati, Salsa BBQ Selezione Bembo
+
+...a noi è piaciuto con una:
+-Blond Ale
+-Saison</string>
+			<key>imageName</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>
