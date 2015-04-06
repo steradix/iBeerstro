@@ -7,10 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B05CA841AA1C20E00AC1C02 /* TagliereClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA831AA1C20E00AC1C02 /* TagliereClass.m */; };
+		7B05CA871AA1C64600AC1C02 /* HamburgerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA861AA1C64600AC1C02 /* HamburgerClass.m */; };
+		7B05CA8A1AA1C88900AC1C02 /* SecondoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA891AA1C88900AC1C02 /* SecondoClass.m */; };
+		7B05CA8D1AA1CA9800AC1C02 /* PaninoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA8C1AA1CA9800AC1C02 /* PaninoClass.m */; };
+		7B05CA901AA1CC5300AC1C02 /* RusticoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA8F1AA1CC5300AC1C02 /* RusticoClass.m */; };
+		7B05CA931AA1D22500AC1C02 /* StuzzicoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA921AA1D22500AC1C02 /* StuzzicoClass.m */; };
+		7B05CA961AA1D39F00AC1C02 /* PiadinaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B05CA951AA1D39F00AC1C02 /* PiadinaClass.m */; };
 		7B0A105C194305B800CD61FF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A105B194305B800CD61FF /* LoginViewController.m */; };
 		7B0A105F1943078C00CD61FF /* RegistratiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A105E1943078C00CD61FF /* RegistratiViewController.m */; };
+		7B103B881AC964C5001A3159 /* desserts.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B811AC964C5001A3159 /* desserts.png */; };
+		7B103B891AC964C5001A3159 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B821AC964C5001A3159 /* hamburger.png */; };
+		7B103B8A1AC964C5001A3159 /* panini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B831AC964C5001A3159 /* panini.png */; };
+		7B103B8B1AC964C5001A3159 /* paniniRustici.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B841AC964C5001A3159 /* paniniRustici.png */; };
+		7B103B8C1AC964C5001A3159 /* piadine.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B851AC964C5001A3159 /* piadine.png */; };
+		7B103B8D1AC964C5001A3159 /* secondi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B861AC964C5001A3159 /* secondi.png */; };
+		7B103B8E1AC964C5001A3159 /* stuzzichini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B871AC964C5001A3159 /* stuzzichini.png */; };
+		7B103B911AC9653A001A3159 /* taglieri.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B901AC9653A001A3159 /* taglieri.png */; };
+		7B103B931AC97373001A3159 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B921AC97373001A3159 /* Storyboard.storyboard */; };
+		7B103B971AC97606001A3159 /* cerca.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B941AC97606001A3159 /* cerca.png */; };
+		7B103B981AC97606001A3159 /* commenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B951AC97606001A3159 /* commenta.png */; };
+		7B103B991AC97606001A3159 /* vota.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B103B961AC97606001A3159 /* vota.png */; };
 		7B1CB6B019A61B5E007AE43C /* app_beerstro_SFONDO640X1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B1CB6AF19A61B5E007AE43C /* app_beerstro_SFONDO640X1136.jpg */; };
-		7B2D7AC919C05ACE00B43795 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2D7AC819C05ACE00B43795 /* menu.png */; };
 		7B2F678119B9AAAB0067E0D7 /* sfondoHamburger640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B2F678019B9AAAB0067E0D7 /* sfondoHamburger640x1136.jpg */; };
 		7B2F678319B9AD3B0067E0D7 /* sfondoCucina640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B2F678219B9AD3B0067E0D7 /* sfondoCucina640x1136.jpg */; };
 		7B2F678519B9B20F0067E0D7 /* menuSelezione640X1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B2F678419B9B20F0067E0D7 /* menuSelezione640X1136.jpg */; };
@@ -20,12 +38,18 @@
 		7B395B101983B4D800CB2D17 /* SessionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B395B0F1983B4D800CB2D17 /* SessionChecker.m */; };
 		7B3ED59D19751DC40035002B /* LoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED59C19751DC40035002B /* LoginUIViewController.m */; };
 		7B3ED5A1197524310035002B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3ED5A0197524310035002B /* FacebookSDK.framework */; };
+		7B6499B51AC6A15700F1901B /* Background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B6499B31AC6A15700F1901B /* Background@2x.jpg */; };
+		7B6499B61AC6A15700F1901B /* Background@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B6499B41AC6A15700F1901B /* Background@3x.jpg */; };
+		7B6499B91AC6BBFD00F1901B /* FindBeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6499B81AC6BBFD00F1901B /* FindBeerViewController.m */; };
+		7B6499BC1AC6BDEC00F1901B /* FoundResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6499BB1AC6BDEC00F1901B /* FoundResultTableViewController.m */; };
+		7B6499BF1AC6C0D800F1901B /* FoundBeerCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6499BE1AC6C0D800F1901B /* FoundBeerCustomCell.m */; };
 		7B74657E19BAEECA008B100A /* LeaveCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74657D19BAEECA008B100A /* LeaveCommentViewController.m */; };
 		7B74658119BAFCF6008B100A /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74658019BAFCF6008B100A /* CommentCell.m */; };
 		7B74658419BAFF26008B100A /* LeaveComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74658319BAFF26008B100A /* LeaveComment.m */; };
 		7B74658719BB0815008B100A /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74658619BB0815008B100A /* RateView.m */; };
+		7B7F21211AB6EC94005FA3A5 /* piadina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F21201AB6EC94005FA3A5 /* piadina.jpg */; };
+		7B7F21231AB6EF03005FA3A5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F21221AB6EF03005FA3A5 /* menu.png */; };
 		7BC69D361A3C3FF70021708C /* DessertClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC69D351A3C3FF70021708C /* DessertClass.m */; };
-		7BC69D391A3C40910021708C /* DessertsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC69D381A3C40910021708C /* DessertsManager.m */; };
 		7BE8D6161A125A9100BD3C41 /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D6141A125A9100BD3C41 /* coreData.xcdatamodeld */; };
 		7BE8D61D1A125C6500BD3C41 /* manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D61C1A125C6500BD3C41 /* manager.m */; };
 		7BE8D6551A125D8900BD3C41 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D6541A125D8900BD3C41 /* User.m */; };
@@ -68,7 +92,6 @@
 		8F6760E4192A46C70065E290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F6760E2192A46C70065E290 /* InfoPlist.strings */; };
 		8F6760E6192A46C70065E290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6760E5192A46C70065E290 /* main.m */; };
 		8F6760EA192A46C70065E290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6760E9192A46C70065E290 /* AppDelegate.m */; };
-		8F6760ED192A46C70065E290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6760EB192A46C70065E290 /* Main.storyboard */; };
 		8F6760F2192A46C70065E290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6760F1192A46C70065E290 /* Images.xcassets */; };
 		8F6760F9192A46C70065E290 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6760F8192A46C70065E290 /* XCTest.framework */; };
 		8F6760FA192A46C70065E290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6760D9192A46C70065E290 /* Foundation.framework */; };
@@ -110,12 +133,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B05CA821AA1C20E00AC1C02 /* TagliereClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagliereClass.h; sourceTree = "<group>"; };
+		7B05CA831AA1C20E00AC1C02 /* TagliereClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagliereClass.m; sourceTree = "<group>"; };
+		7B05CA851AA1C64600AC1C02 /* HamburgerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerClass.h; sourceTree = "<group>"; };
+		7B05CA861AA1C64600AC1C02 /* HamburgerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerClass.m; sourceTree = "<group>"; };
+		7B05CA881AA1C88900AC1C02 /* SecondoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondoClass.h; sourceTree = "<group>"; };
+		7B05CA891AA1C88900AC1C02 /* SecondoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondoClass.m; sourceTree = "<group>"; };
+		7B05CA8B1AA1CA9800AC1C02 /* PaninoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaninoClass.h; sourceTree = "<group>"; };
+		7B05CA8C1AA1CA9800AC1C02 /* PaninoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaninoClass.m; sourceTree = "<group>"; };
+		7B05CA8E1AA1CC5300AC1C02 /* RusticoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RusticoClass.h; sourceTree = "<group>"; };
+		7B05CA8F1AA1CC5300AC1C02 /* RusticoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RusticoClass.m; sourceTree = "<group>"; };
+		7B05CA911AA1D22500AC1C02 /* StuzzicoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuzzicoClass.h; sourceTree = "<group>"; };
+		7B05CA921AA1D22500AC1C02 /* StuzzicoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuzzicoClass.m; sourceTree = "<group>"; };
+		7B05CA941AA1D39F00AC1C02 /* PiadinaClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiadinaClass.h; sourceTree = "<group>"; };
+		7B05CA951AA1D39F00AC1C02 /* PiadinaClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiadinaClass.m; sourceTree = "<group>"; };
 		7B0A105A194305B800CD61FF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		7B0A105B194305B800CD61FF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7B0A105D1943078C00CD61FF /* RegistratiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistratiViewController.h; sourceTree = "<group>"; };
 		7B0A105E1943078C00CD61FF /* RegistratiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistratiViewController.m; sourceTree = "<group>"; };
+		7B103B811AC964C5001A3159 /* desserts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desserts.png; path = Resources/Immagini/Bottoni/desserts.png; sourceTree = "<group>"; };
+		7B103B821AC964C5001A3159 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hamburger.png; path = Resources/Immagini/Bottoni/hamburger.png; sourceTree = "<group>"; };
+		7B103B831AC964C5001A3159 /* panini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panini.png; path = Resources/Immagini/Bottoni/panini.png; sourceTree = "<group>"; };
+		7B103B841AC964C5001A3159 /* paniniRustici.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paniniRustici.png; path = Resources/Immagini/Bottoni/paniniRustici.png; sourceTree = "<group>"; };
+		7B103B851AC964C5001A3159 /* piadine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = piadine.png; path = Resources/Immagini/Bottoni/piadine.png; sourceTree = "<group>"; };
+		7B103B861AC964C5001A3159 /* secondi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = secondi.png; path = Resources/Immagini/Bottoni/secondi.png; sourceTree = "<group>"; };
+		7B103B871AC964C5001A3159 /* stuzzichini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stuzzichini.png; path = Resources/Immagini/Bottoni/stuzzichini.png; sourceTree = "<group>"; };
+		7B103B901AC9653A001A3159 /* taglieri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taglieri.png; sourceTree = "<group>"; };
+		7B103B921AC97373001A3159 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7B103B941AC97606001A3159 /* cerca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cerca.png; sourceTree = "<group>"; };
+		7B103B951AC97606001A3159 /* commenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commenta.png; sourceTree = "<group>"; };
+		7B103B961AC97606001A3159 /* vota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vota.png; sourceTree = "<group>"; };
 		7B1CB6AF19A61B5E007AE43C /* app_beerstro_SFONDO640X1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app_beerstro_SFONDO640X1136.jpg; sourceTree = "<group>"; };
-		7B2D7AC819C05ACE00B43795 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		7B2F678019B9AAAB0067E0D7 /* sfondoHamburger640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sfondoHamburger640x1136.jpg; sourceTree = "<group>"; };
 		7B2F678219B9AD3B0067E0D7 /* sfondoCucina640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sfondoCucina640x1136.jpg; sourceTree = "<group>"; };
 		7B2F678419B9B20F0067E0D7 /* menuSelezione640X1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menuSelezione640X1136.jpg; sourceTree = "<group>"; };
@@ -129,6 +177,14 @@
 		7B3ED59B19751DC40035002B /* LoginUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUIViewController.h; sourceTree = "<group>"; };
 		7B3ED59C19751DC40035002B /* LoginUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUIViewController.m; sourceTree = "<group>"; };
 		7B3ED5A0197524310035002B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		7B6499B31AC6A15700F1901B /* Background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Background@2x.jpg"; path = "Resources/Immagini/Sfondi/Background@2x.jpg"; sourceTree = "<group>"; };
+		7B6499B41AC6A15700F1901B /* Background@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Background@3x.jpg"; path = "Resources/Immagini/Sfondi/Background@3x.jpg"; sourceTree = "<group>"; };
+		7B6499B71AC6BBFD00F1901B /* FindBeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindBeerViewController.h; sourceTree = "<group>"; };
+		7B6499B81AC6BBFD00F1901B /* FindBeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindBeerViewController.m; sourceTree = "<group>"; };
+		7B6499BA1AC6BDEC00F1901B /* FoundResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundResultTableViewController.h; sourceTree = "<group>"; };
+		7B6499BB1AC6BDEC00F1901B /* FoundResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundResultTableViewController.m; sourceTree = "<group>"; };
+		7B6499BD1AC6C0D800F1901B /* FoundBeerCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundBeerCustomCell.h; sourceTree = "<group>"; };
+		7B6499BE1AC6C0D800F1901B /* FoundBeerCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundBeerCustomCell.m; sourceTree = "<group>"; };
 		7B74657C19BAEECA008B100A /* LeaveCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveCommentViewController.h; sourceTree = "<group>"; };
 		7B74657D19BAEECA008B100A /* LeaveCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveCommentViewController.m; sourceTree = "<group>"; };
 		7B74657F19BAFCF6008B100A /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
@@ -137,10 +193,10 @@
 		7B74658319BAFF26008B100A /* LeaveComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveComment.m; sourceTree = "<group>"; };
 		7B74658519BB0815008B100A /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
 		7B74658619BB0815008B100A /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		7B7F21201AB6EC94005FA3A5 /* piadina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = piadina.jpg; path = ../piadina.jpg; sourceTree = "<group>"; };
+		7B7F21221AB6EF03005FA3A5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../menu.png; sourceTree = "<group>"; };
 		7BC69D341A3C3FF70021708C /* DessertClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertClass.h; sourceTree = "<group>"; };
 		7BC69D351A3C3FF70021708C /* DessertClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertClass.m; sourceTree = "<group>"; };
-		7BC69D371A3C40910021708C /* DessertsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertsManager.h; sourceTree = "<group>"; };
-		7BC69D381A3C40910021708C /* DessertsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertsManager.m; sourceTree = "<group>"; };
 		7BE8D6151A125A9100BD3C41 /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
 		7BE8D61B1A125C6500BD3C41 /* manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = manager.h; path = coreData/manager.h; sourceTree = "<group>"; };
 		7BE8D61C1A125C6500BD3C41 /* manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = manager.m; path = coreData/manager.m; sourceTree = "<group>"; };
@@ -213,7 +269,6 @@
 		8F6760E7192A46C70065E290 /* iBeerstro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBeerstro-Prefix.pch"; sourceTree = "<group>"; };
 		8F6760E8192A46C70065E290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F6760E9192A46C70065E290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F6760EC192A46C70065E290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F6760F1192A46C70065E290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F6760F7192A46C70065E290 /* iBeerstroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeerstroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6760F8192A46C70065E290 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -278,6 +333,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B103B8F1AC964EE001A3159 /* bottoni */ = {
+			isa = PBXGroup;
+			children = (
+				7B103B941AC97606001A3159 /* cerca.png */,
+				7B103B951AC97606001A3159 /* commenta.png */,
+				7B103B961AC97606001A3159 /* vota.png */,
+				7B103B901AC9653A001A3159 /* taglieri.png */,
+				7B103B811AC964C5001A3159 /* desserts.png */,
+				7B103B821AC964C5001A3159 /* hamburger.png */,
+				7B103B831AC964C5001A3159 /* panini.png */,
+				7B103B841AC964C5001A3159 /* paniniRustici.png */,
+				7B103B851AC964C5001A3159 /* piadine.png */,
+				7B103B861AC964C5001A3159 /* secondi.png */,
+				7B103B871AC964C5001A3159 /* stuzzichini.png */,
+			);
+			name = bottoni;
+			sourceTree = "<group>";
+		};
+		7B6499B21AC69C9500F1901B /* Sfondi */ = {
+			isa = PBXGroup;
+			children = (
+				7B6499B31AC6A15700F1901B /* Background@2x.jpg */,
+				7B6499B41AC6A15700F1901B /* Background@3x.jpg */,
+			);
+			name = Sfondi;
+			sourceTree = "<group>";
+		};
 		7BE8D61A1A125C0D00BD3C41 /* coreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,18 +380,32 @@
 				8F056348192A54F900E29194 /* Birra.m */,
 				7BC69D341A3C3FF70021708C /* DessertClass.h */,
 				7BC69D351A3C3FF70021708C /* DessertClass.m */,
+				7B05CA821AA1C20E00AC1C02 /* TagliereClass.h */,
+				7B05CA831AA1C20E00AC1C02 /* TagliereClass.m */,
+				7B05CA851AA1C64600AC1C02 /* HamburgerClass.h */,
+				7B05CA861AA1C64600AC1C02 /* HamburgerClass.m */,
+				7B05CA881AA1C88900AC1C02 /* SecondoClass.h */,
+				7B05CA891AA1C88900AC1C02 /* SecondoClass.m */,
+				7B05CA8B1AA1CA9800AC1C02 /* PaninoClass.h */,
+				7B05CA8C1AA1CA9800AC1C02 /* PaninoClass.m */,
+				7B05CA8E1AA1CC5300AC1C02 /* RusticoClass.h */,
+				7B05CA8F1AA1CC5300AC1C02 /* RusticoClass.m */,
+				7B05CA911AA1D22500AC1C02 /* StuzzicoClass.h */,
+				7B05CA921AA1D22500AC1C02 /* StuzzicoClass.m */,
+				7B05CA941AA1D39F00AC1C02 /* PiadinaClass.h */,
+				7B05CA951AA1D39F00AC1C02 /* PiadinaClass.m */,
 				8F25275D192E4EE80095DE02 /* News.h */,
 				8F25275E192E4EE80095DE02 /* News.m */,
 				8F05634B192A568300E29194 /* CustomCell.h */,
 				8F05634C192A568300E29194 /* CustomCell.m */,
 				7B74657F19BAFCF6008B100A /* CommentCell.h */,
 				7B74658019BAFCF6008B100A /* CommentCell.m */,
+				7B6499BD1AC6C0D800F1901B /* FoundBeerCustomCell.h */,
+				7B6499BE1AC6C0D800F1901B /* FoundBeerCustomCell.m */,
 				8F05634E192A572E00E29194 /* BeersManager.h */,
 				8F05634F192A572E00E29194 /* BeersManager.m */,
 				8F1E6EFC192F76F00074F790 /* NewsManager.h */,
 				8F1E6EFD192F76F00074F790 /* NewsManager.m */,
-				7BC69D371A3C40910021708C /* DessertsManager.h */,
-				7BC69D381A3C40910021708C /* DessertsManager.m */,
 				8FCEA56C192CDC79008B9CEA /* ProductsManager.h */,
 				8FCEA56D192CDC79008B9CEA /* ProductsManager.m */,
 				7B395B081983ADB200CB2D17 /* ConnectionChecker.h */,
@@ -391,8 +487,8 @@
 			children = (
 				8F6760E8192A46C70065E290 /* AppDelegate.h */,
 				8F6760E9192A46C70065E290 /* AppDelegate.m */,
-				8F6760EB192A46C70065E290 /* Main.storyboard */,
 				8F252758192E41AF0095DE02 /* Main_4inch.storyboard */,
+				7B103B921AC97373001A3159 /* Storyboard.storyboard */,
 				7B3ED59B19751DC40035002B /* LoginUIViewController.h */,
 				7B3ED59C19751DC40035002B /* LoginUIViewController.m */,
 				8F67610F192A4C700065E290 /* MenuViewController.h */,
@@ -407,6 +503,10 @@
 				8F252761192E534C0095DE02 /* BeersPageViewController.m */,
 				8FA12CA4192B9B720010FF95 /* DettaglioBirraViewController.h */,
 				8FA12CA5192B9B720010FF95 /* DettaglioBirraViewController.m */,
+				7B6499B71AC6BBFD00F1901B /* FindBeerViewController.h */,
+				7B6499B81AC6BBFD00F1901B /* FindBeerViewController.m */,
+				7B6499BA1AC6BDEC00F1901B /* FoundResultTableViewController.h */,
+				7B6499BB1AC6BDEC00F1901B /* FoundResultTableViewController.m */,
 				8F70995F192CC066003D3DB1 /* PiccolaCucinaViewController.h */,
 				8F709960192CC066003D3DB1 /* PiccolaCucinaViewController.m */,
 				8F252747192E13EC0095DE02 /* ProductViewController.h */,
@@ -471,13 +571,16 @@
 		8FCEA593192CE785008B9CEA /* Immagini */ = {
 			isa = PBXGroup;
 			children = (
+				7B103B8F1AC964EE001A3159 /* bottoni */,
+				7B6499B21AC69C9500F1901B /* Sfondi */,
+				7B7F21221AB6EF03005FA3A5 /* menu.png */,
+				7B7F21201AB6EC94005FA3A5 /* piadina.jpg */,
 				7BF03A8719C2F8F500E0C19A /* iSecondi.png */,
 				7BF03A8819C2F8F500E0C19A /* stuzzichi.png */,
 				7BF03A8919C2F8F500E0C19A /* iDessert.png */,
 				7BF03A8A19C2F8F500E0C19A /* iPanini.png */,
 				7BF03A8B19C2F8F500E0C19A /* hamburger.png */,
 				7BF03A8C19C2F8F500E0C19A /* iTaglieri.png */,
-				7B2D7AC819C05ACE00B43795 /* menu.png */,
 				7B2F678C19B9BE810067E0D7 /* logo.png */,
 				7B2F678219B9AD3B0067E0D7 /* sfondoCucina640x1136.jpg */,
 				7B2F678419B9B20F0067E0D7 /* menuSelezione640X1136.jpg */,
@@ -581,31 +684,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B103B8C1AC964C5001A3159 /* piadine.png in Resources */,
 				8F6760F2192A46C70065E290 /* Images.xcassets in Resources */,
 				8FCEA56B192CDC0F008B9CEA /* prodotti.plist in Resources */,
 				8F6760E4192A46C70065E290 /* InfoPlist.strings in Resources */,
 				7BF03A8D19C2F8F500E0C19A /* iSecondi.png in Resources */,
 				8FCEA5A5192CE791008B9CEA /* brabante.jpg in Resources */,
 				7BF03A8E19C2F8F500E0C19A /* stuzzichi.png in Resources */,
+				7B103B8D1AC964C5001A3159 /* secondi.png in Resources */,
 				8FCEA5A7192CE791008B9CEA /* diverso.jpg in Resources */,
 				8FCEA5A3192CE791008B9CEA /* birramisu2.jpg in Resources */,
+				7B6499B51AC6A15700F1901B /* Background@2x.jpg in Resources */,
+				7B7F21231AB6EF03005FA3A5 /* menu.png in Resources */,
+				7B103B911AC9653A001A3159 /* taglieri.png in Resources */,
+				7B103B931AC97373001A3159 /* Storyboard.storyboard in Resources */,
 				7BF03A9119C2F8F500E0C19A /* hamburger.png in Resources */,
 				8FCEA5AC192CE791008B9CEA /* pape_satan_aleppe.jpg in Resources */,
 				8FCEA5A4192CE791008B9CEA /* blackrock.jpg in Resources */,
 				8FCEA5A9192CE791008B9CEA /* logo_fb.png in Resources */,
 				7B1CB6B019A61B5E007AE43C /* app_beerstro_SFONDO640X1136.jpg in Resources */,
+				7B103B991AC97606001A3159 /* vota.png in Resources */,
 				8FCEA5B0192CE791008B9CEA /* taralli.jpg in Resources */,
+				7B103B881AC964C5001A3159 /* desserts.png in Resources */,
+				7B103B981AC97606001A3159 /* commenta.png in Resources */,
+				7B103B8B1AC964C5001A3159 /* paniniRustici.png in Resources */,
 				7B2F678119B9AAAB0067E0D7 /* sfondoHamburger640x1136.jpg in Resources */,
+				7B103B891AC964C5001A3159 /* hamburger.png in Resources */,
 				7B2F678319B9AD3B0067E0D7 /* sfondoCucina640x1136.jpg in Resources */,
 				7BF03A8F19C2F8F500E0C19A /* iDessert.png in Resources */,
 				8F252759192E41AF0095DE02 /* Main_4inch.storyboard in Resources */,
-				8F6760ED192A46C70065E290 /* Main.storyboard in Resources */,
 				8FCEA5A8192CE791008B9CEA /* gambrinus.jpg in Resources */,
-				7B2D7AC919C05ACE00B43795 /* menu.png in Resources */,
 				7B2F678D19B9BE810067E0D7 /* logo.png in Resources */,
+				7B7F21211AB6EC94005FA3A5 /* piadina.jpg in Resources */,
+				7B103B8E1AC964C5001A3159 /* stuzzichini.png in Resources */,
 				7B2F678519B9B20F0067E0D7 /* menuSelezione640X1136.jpg in Resources */,
 				8FCEA5AE192CE791008B9CEA /* san_colombano.jpg in Resources */,
+				7B6499B61AC6A15700F1901B /* Background@3x.jpg in Resources */,
+				7B103B971AC97606001A3159 /* cerca.png in Resources */,
 				8FCEA5B1192CE791008B9CEA /* trappista.jpg in Resources */,
+				7B103B8A1AC964C5001A3159 /* panini.png in Resources */,
 				8FCEA5AA192CE791008B9CEA /* monument_bleu.jpg in Resources */,
 				7BF03A9219C2F8F500E0C19A /* iTaglieri.png in Resources */,
 				8FCEA5A6192CE791008B9CEA /* chips.jpg in Resources */,
@@ -632,14 +749,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F05636B192A58F000E29194 /* AFURLConnectionOperation.m in Sources */,
+				7B6499B91AC6BBFD00F1901B /* FindBeerViewController.m in Sources */,
+				7B05CA961AA1D39F00AC1C02 /* PiadinaClass.m in Sources */,
 				7B74658119BAFCF6008B100A /* CommentCell.m in Sources */,
 				8F056367192A58F000E29194 /* AFImageRequestOperation.m in Sources */,
+				7B05CA841AA1C20E00AC1C02 /* TagliereClass.m in Sources */,
 				8F1E6EFE192F76F00074F790 /* NewsManager.m in Sources */,
 				8F1E6F01192F88B40074F790 /* ProductPageViewController.m in Sources */,
 				8F25274F192E33B40095DE02 /* ComeRaggiungerciViewController.m in Sources */,
 				8F25274C192E13F40095DE02 /* ProductDetailViewController.m in Sources */,
 				7BE8D61D1A125C6500BD3C41 /* manager.m in Sources */,
 				7B0A105F1943078C00CD61FF /* RegistratiViewController.m in Sources */,
+				7B05CA8A1AA1C88900AC1C02 /* SecondoClass.m in Sources */,
 				8F6760EA192A46C70065E290 /* AppDelegate.m in Sources */,
 				8F056350192A572E00E29194 /* BeersManager.m in Sources */,
 				7B0A105C194305B800CD61FF /* LoginViewController.m in Sources */,
@@ -647,27 +768,32 @@
 				8F676117192A4D080065E290 /* BirreViewController.m in Sources */,
 				8F056368192A58F000E29194 /* AFJSONRequestOperation.m in Sources */,
 				8F05634D192A568300E29194 /* CustomCell.m in Sources */,
+				7B05CA931AA1D22500AC1C02 /* StuzzicoClass.m in Sources */,
 				8F05636D192A58F000E29194 /* UIImageView+AFNetworking.m in Sources */,
+				7B6499BF1AC6C0D800F1901B /* FoundBeerCustomCell.m in Sources */,
 				7B74658719BB0815008B100A /* RateView.m in Sources */,
 				8F676114192A4CFE0065E290 /* NewsViewController.m in Sources */,
+				7B6499BC1AC6BDEC00F1901B /* FoundResultTableViewController.m in Sources */,
 				8FCEA56E192CDC79008B9CEA /* ProductsManager.m in Sources */,
 				8F056365192A58F000E29194 /* AFHTTPClient.m in Sources */,
+				7B05CA8D1AA1CA9800AC1C02 /* PaninoClass.m in Sources */,
 				8F252749192E13EC0095DE02 /* ProductViewController.m in Sources */,
 				8F252762192E534C0095DE02 /* BeersPageViewController.m in Sources */,
 				8F05636A192A58F000E29194 /* AFPropertyListRequestOperation.m in Sources */,
 				8F6760E6192A46C70065E290 /* main.m in Sources */,
+				7B05CA871AA1C64600AC1C02 /* HamburgerClass.m in Sources */,
 				7B395B0C1983ADB200CB2D17 /* ConnectionChecker.m in Sources */,
 				8FA12CA6192B9B720010FF95 /* DettaglioBirraViewController.m in Sources */,
 				8F252754192E34860095DE02 /* BeerstroHQAnnotation.m in Sources */,
 				7BE8D6551A125D8900BD3C41 /* User.m in Sources */,
 				8F056346192A4DE900E29194 /* CustomSegue.m in Sources */,
+				7B05CA901AA1CC5300AC1C02 /* RusticoClass.m in Sources */,
 				7B74657E19BAEECA008B100A /* LeaveCommentViewController.m in Sources */,
 				8F056349192A54F900E29194 /* Birra.m in Sources */,
 				7B395B101983B4D800CB2D17 /* SessionChecker.m in Sources */,
 				8F252757192E38CA0095DE02 /* ContattiViewController.m in Sources */,
 				8F676111192A4C700065E290 /* MenuViewController.m in Sources */,
 				8F25275F192E4EE80095DE02 /* News.m in Sources */,
-				7BC69D391A3C40910021708C /* DessertsManager.m in Sources */,
 				7B74658419BAFF26008B100A /* LeaveComment.m in Sources */,
 				8F056369192A58F000E29194 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				8F709961192CC066003D3DB1 /* PiccolaCucinaViewController.m in Sources */,
@@ -705,14 +831,6 @@
 				8F6760E3192A46C70065E290 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8F6760EB192A46C70065E290 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F6760EC192A46C70065E290 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		8F676101192A46C70065E290 /* InfoPlist.strings */ = {
@@ -811,6 +929,7 @@
 				INFOPLIST_FILE = "iBeerstro/iBeerstro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -830,6 +949,7 @@
 				INFOPLIST_FILE = "iBeerstro/iBeerstro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

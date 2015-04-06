@@ -9,11 +9,12 @@
 #import "ProductViewController.h"
 #import "ProductDetailViewController.h"
 #import "ProductPageViewController.h"
+#import "ProductsManager.h"
 
-#import "DessertsManager.h"
 #import "DessertClass.h"
+#import "TagliereClass.h"
 
-@interface ProductViewController ()<UITableViewDataSource, UITableViewDelegate, DessertsManagerDelegate>
+@interface ProductViewController ()<UITableViewDataSource, UITableViewDelegate, ProductsManagerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
 
 @end
@@ -90,32 +91,31 @@
 
 - (void)populateProductsListArray
 {
+    [[ProductsManager sharedClass]setDelegate:self];
     switch (tp) {
         case Taglieri:
-            productsNameList = [[ProductsManager sharedClass]listaTaglieri];
+            [[ProductsManager sharedClass]getTaglieriFromServer];
             break;
         case Hamburger:
-            productsNameList = [[ProductsManager sharedClass]listaHamburger];
+            [[ProductsManager sharedClass]getHamburgerFromServer];
             break;
         case Secondi:
-            productsNameList = [[ProductsManager sharedClass]listaSecondi];
+            [[ProductsManager sharedClass]getSecondiFromServer];
             break;
         case Dessert:
-//            productsNameList = [[ProductsManager sharedClass]listaDessert];
-            [[DessertsManager sharedClass]setDelegate:self];
-            [[DessertsManager sharedClass]getDessertsFromServer];
+            [[ProductsManager sharedClass]getDessertsFromServer];
             break;
         case Panini:
-            productsNameList = [[ProductsManager sharedClass]listaPanini];
+            [[ProductsManager sharedClass]getPaniniFromServer];
             break;
         case Stuzzichi:
-            productsNameList = [[ProductsManager sharedClass]listaStuzzichi];
+            [[ProductsManager sharedClass]getStuzzichiFromServer];
             break;
         case Rustici:
-            productsNameList = [[ProductsManager sharedClass]listaRustici];
+            [[ProductsManager sharedClass]getRusticiFromServer];
             break;
         case Piadine:
-            productsNameList = [[ProductsManager sharedClass]listaPiadine];
+            [[ProductsManager sharedClass]getPiadineFromServer];
             break;
         default:
             break;
@@ -165,49 +165,45 @@
     
     switch (tp) {
         case Taglieri:
-            selectedProduct = [[ProductsManager sharedClass]tagliereConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] taglieri];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaTaglieri];
+            selectedProduct = [[ProductsManager sharedClass]convertTagliereIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Hamburger:
-            selectedProduct = [[ProductsManager sharedClass]hamburgerConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] hamburger];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaHamburger];
+            selectedProduct = [[ProductsManager sharedClass]convertHamburgerIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Secondi:
-            selectedProduct = [[ProductsManager sharedClass]secondoConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] secondi];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaSecondi];
+            selectedProduct = [[ProductsManager sharedClass]convertSecondoIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Dessert:
-//            selectedProduct = [[ProductsManager sharedClass]dessertConNome:[productsNameList objectAtIndex:indexPath.row]];
-//            pdvc.dataList = [[ProductsManager sharedClass] dessert];
-//            pdvc.listOfProducts = [[ProductsManager sharedClass] listaDessert];
-            
-            selectedProduct = [[DessertsManager sharedClass]convertDessertIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            selectedProduct = [[ProductsManager sharedClass]convertDessertIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
             pdvc.dataList = productsDownloaded;
             pdvc.listOfProducts = productsNameList;
             
             break;
         case Panini:
-            selectedProduct = [[ProductsManager sharedClass]paninoConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] panini];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaPanini];
+            selectedProduct = [[ProductsManager sharedClass]convertPaninoIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Stuzzichi:
-            selectedProduct = [[ProductsManager sharedClass]stuzzicoConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] stuzzichi];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaStuzzichi];
+            selectedProduct = [[ProductsManager sharedClass]convertStuzzicoIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Rustici:
-            selectedProduct = [[ProductsManager sharedClass]rusticoConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] rustici];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaRustici];
+            selectedProduct = [[ProductsManager sharedClass]convertRusticoIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         case Piadine:
-            selectedProduct = [[ProductsManager sharedClass]piadinaConNome:[productsNameList objectAtIndex:indexPath.row]];
-            pdvc.dataList = [[ProductsManager sharedClass] piadine];
-            pdvc.listOfProducts = [[ProductsManager sharedClass] listaPiadine];
+            selectedProduct = [[ProductsManager sharedClass]convertPiadinaIntoDictionary:[productsListDownloaded objectAtIndex:indexPath.row]];
+            pdvc.dataList = productsDownloaded;
+            pdvc.listOfProducts = productsNameList;
             break;
         default:
             break;
@@ -227,10 +223,85 @@
     NSMutableArray *names = [[NSMutableArray alloc]initWithCapacity:data.count];
     NSMutableDictionary *products = [[NSMutableDictionary alloc]init];
     
-    for(DessertClass *d in data)
+    if([[data objectAtIndex:0]isKindOfClass:DessertClass.class])
     {
-        [names addObject:d.nome];
-        [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:d.descrizione, d.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:d.nome];
+        NSLog(@"Dessert");
+        for(DessertClass *d in data)
+        {
+            [d logDessert];
+            [names addObject:d.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:d.descrizione, d.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:d.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:TagliereClass.class])
+    {
+        NSLog(@"Taglieri");
+        for(TagliereClass *t in data)
+        {
+            [t logTagliere];
+            [names addObject:t.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:t.descrizione, t.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:t.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:HamburgerClass.class])
+    {
+        NSLog(@"Hamburger");
+        for(HamburgerClass *h in data)
+        {
+            [h logHamburger];
+            [names addObject:h.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:h.descrizione, h.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:h.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:SecondoClass.class])
+    {
+        NSLog(@"Secondo");
+        for(SecondoClass *s in data)
+        {
+            [s logSecondo];
+            [names addObject:s.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:s.descrizione, s.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:s.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:PaninoClass.class])
+    {
+        NSLog(@"Panino");
+        for(PaninoClass *p in data)
+        {
+            [p logPanino];
+            [names addObject:p.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:p.descrizione, p.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:p.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:RusticoClass.class])
+    {
+        NSLog(@"Rustico");
+        for(RusticoClass *r in data)
+        {
+            [r logRustico];
+            [names addObject:r.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:r.descrizione, r.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:r.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:StuzzicoClass.class])
+    {
+        NSLog(@"Stuzzico");
+        for(StuzzicoClass *s in data)
+        {
+            [s logStuzzico];
+            [names addObject:s.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:s.descrizione, s.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:s.nome];
+        }
+    }
+    else if([[data objectAtIndex:0]isKindOfClass:PiadinaClass.class])
+    {
+        NSLog(@"Piadina");
+        for(PiadinaClass *p in data)
+        {
+            [p logPiadina];
+            [names addObject:p.nome];
+            [products setObject:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:p.descrizione, p.immagine, nil] forKeys:[NSArray arrayWithObjects:@"description", @"imageName", nil]] forKey:p.nome];
+        }
     }
     
     productsNameList = names.copy;

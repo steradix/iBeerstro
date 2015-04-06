@@ -10,11 +10,11 @@
 
 @implementation DessertClass
 
-@synthesize identification, nome,descrizione, immagine, disponibilita;
+@synthesize identification, nome,descrizione, immagine;
 
 - (void)logDessert
 {
-    NSLog(@"\nIdentification: %@\nNome: %@\nDescrizione: %@\nImmagine: %@\nDisponibilità: %@", identification, nome, descrizione, immagine, disponibilita);
+    NSLog(@"\nIdentification: %@\nNome: %@\nDescrizione: %@\nImmagine: %@", identification, nome, descrizione, immagine);
 }
 
 @end

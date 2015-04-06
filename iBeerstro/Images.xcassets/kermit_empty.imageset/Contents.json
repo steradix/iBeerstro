@@ -3,11 +3,15 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "kermit_empty.png"
+      "filename" : "pinta2vuota.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

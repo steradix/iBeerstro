@@ -23,4 +23,16 @@
 #import "UIImageView+AFNetworking.h"
 #import "SessionChecker.h"
 #import "LeaveComment.h"
+
+typedef enum : NSUInteger {
+    Taglieri,
+    Hamburger,
+    Secondi,
+    Dessert,
+    Panini,
+    Stuzzichi,
+    Rustici,
+    Piadine
+} TipoCucina;
+
 #endif

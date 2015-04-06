@@ -137,6 +137,10 @@
         {
             currentController = (UINavigationController*)[self.storyboard instantiateViewControllerWithIdentifier:@"beersNavigationController"];
         }
+        else if([segue.identifier isEqualToString:@"FindBeerSegue"])
+        {
+            currentController = (UINavigationController*)[self.storyboard instantiateViewControllerWithIdentifier:@"findBeerNavigationController"];
+        }
         else if([segue.identifier isEqualToString:@"PiccolaCucinaSegue"])
         {
             currentController = (UINavigationController*)[self.storyboard instantiateViewControllerWithIdentifier:@"piccolaCucinaNavigationController"];

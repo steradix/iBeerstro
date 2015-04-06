@@ -8,40 +8,49 @@
 
 #import <Foundation/Foundation.h>
 
+#import "DessertClass.h"
+#import "TagliereClass.h"
+#import "HamburgerClass.h"
+#import "SecondoClass.h"
+#import "PaninoClass.h"
+#import "RusticoClass.h"
+#import "StuzzicoClass.h"
+#import "PiadinaClass.h"
+
+@protocol ProductsManagerDelegate <NSObject>
+
+- (void)dataLoaded:(NSArray*)data;
+
+@end
+
 @interface ProductsManager : NSObject
+
+@property (assign, nonatomic) id <ProductsManagerDelegate> delegate;
 
 + (ProductsManager *)sharedClass;
 
-- (NSArray*)listaTaglieri;
-- (NSDictionary*)taglieri;
-- (NSDictionary*)tagliereConNome:(NSString*)nomeTagliere;
+- (void)getDessertsFromServer;
+- (NSDictionary*)convertDessertIntoDictionary:(DessertClass*)dessert;
 
-- (NSArray*)listaHamburger;
-- (NSDictionary*)hamburger;
-- (NSDictionary*)hamburgerConNome:(NSString*)nomeHamburger;
+- (void)getTaglieriFromServer;
+- (NSDictionary*)convertTagliereIntoDictionary:(TagliereClass*)tagliere;
 
-- (NSArray*)listaSecondi;
-- (NSDictionary*)secondi;
-- (NSDictionary*)secondoConNome:(NSString*)nomeSecondo;
+- (void)getHamburgerFromServer;
+- (NSDictionary*)convertHamburgerIntoDictionary:(HamburgerClass*)hamburger;
 
-- (NSArray*)listaDessert;
-- (NSDictionary*)dessert;
-- (NSDictionary*)dessertConNome:(NSString*)nomeDessert;
+- (void)getSecondiFromServer;
+- (NSDictionary*)convertSecondoIntoDictionary:(SecondoClass*)secondo;
 
-- (NSArray*)listaPanini;
-- (NSDictionary*)panini;
-- (NSDictionary*)paninoConNome:(NSString*)nomePanino;
+- (void)getPaniniFromServer;
+- (NSDictionary*)convertPaninoIntoDictionary:(PaninoClass*)panino;
 
-- (NSArray*)listaStuzzichi;
-- (NSDictionary*)stuzzichi;
-- (NSDictionary*)stuzzicoConNome:(NSString*)nomeStuzzico;
+- (void)getRusticiFromServer;
+- (NSDictionary*)convertRusticoIntoDictionary:(RusticoClass*)rustico;
 
-- (NSArray*)listaRustici;
-- (NSDictionary*)rustici;
-- (NSDictionary*)rusticoConNome:(NSString*)nomeRustico;
+- (void)getStuzzichiFromServer;
+- (NSDictionary*)convertStuzzicoIntoDictionary:(StuzzicoClass*)stuzzico;
 
-- (NSArray*)listaPiadine;
-- (NSDictionary*)piadine;
-- (NSDictionary*)piadinaConNome:(NSString*)nomePiadina;
+- (void)getPiadineFromServer;
+- (NSDictionary*)convertPiadinaIntoDictionary:(PiadinaClass*)piadina;
 
 @end

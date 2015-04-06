@@ -50,6 +50,12 @@
     [connection start];
 }
 
+- (IBAction)openMenuButtonPressed:(id)sender
+{
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"OpenMenu" object:nil];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

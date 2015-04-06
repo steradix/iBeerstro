@@ -28,7 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSString *text = [NSString stringWithFormat:@"Bicchiere: %@\nStile: %@\nGradazione: %@\nBirrificio: %@\nProvenienza: %@", _beer.bicchiere, _beer.stile, _beer.gradazione, _beer.birrificio, _beer.provenienza];
+    NSString *text = [NSString stringWithFormat:@"Bicchiere: %@\nStile: %@\nTemperatura: %@%°\nGradazione: %@%%\nBirrificio: %@\nProvenienza: %@", _beer.bicchiere, _beer.stile, _beer.temperatura , _beer.gradazione, _beer.birrificio, _beer.provenienza];
     [_myTextView setText:text];
     [_myTextView setFont:[UIFont fontWithName:@"Heiti TC" size:24]];
     

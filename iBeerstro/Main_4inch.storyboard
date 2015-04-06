@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lNO-jC-MEY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lNO-jC-MEY">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--Menu View Controller-->
@@ -20,15 +20,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuSelezione640X1136.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-o3-Mjd">
                                 <rect key="frame" x="-13" y="0.0" width="345" height="578"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIP-V8-jp3">
-                                <rect key="frame" x="6" y="28" width="184" height="65"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="HfC-bM-2eZ" kind="custom" identifier="NewsSegue" customClass="CustomSegue" id="e2I-xT-iPC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4N-m9-16W">
                                 <rect key="frame" x="6" y="101" width="170" height="64"/>
                                 <state key="normal">
@@ -74,6 +65,15 @@
                                     <segue destination="G8g-lT-1cx" kind="custom" identifier="LoginSegue" customClass="CustomSegue" id="uT7-Lb-NfZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIP-V8-jp3">
+                                <rect key="frame" x="21" y="28" width="184" height="65"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HfC-bM-2eZ" kind="custom" identifier="NewsSegue" customClass="CustomSegue" id="e2I-xT-iPC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99475534980000002" blue="0.16998833020000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8n-JN-HUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-87" y="182"/>
+            <point key="canvasLocation" x="-197" y="340"/>
         </scene>
         <!--Birre View Controller-->
         <scene sceneID="fM4-q5-ad8">
@@ -146,6 +146,7 @@
                     <navigationItem key="navigationItem" id="RqA-cQ-uN6">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="HZ0-VC-p5P">
                             <inset key="imageInsets" minX="-12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" cyan="0.46000000000000002" magenta="0.84999999999999998" yellow="0.76000000000000001" black="0.70999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                             <connections>
                                 <action selector="openMenuButtonPressed:" destination="pnv-c1-y8p" id="fL7-O4-vhd"/>
                             </connections>
@@ -159,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2R-z0-tqG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997" y="-350"/>
+            <point key="canvasLocation" x="1009" y="-1154"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vQY-Ob-XPx">
@@ -179,7 +180,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXV-5c-qfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="-350"/>
+            <point key="canvasLocation" x="509" y="-1162"/>
         </scene>
         <!--Piccola Cucina View Controller-->
         <scene sceneID="b0U-KQ-PBn">
@@ -260,11 +261,11 @@
                                     <segue destination="Low-KS-Xqs" kind="push" identifier="stuzzichi" id="JdP-ee-9OP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-6j-pt9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-6j-pt9">
                                 <rect key="frame" x="153" y="292" width="57" height="57"/>
                                 <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <state key="normal" title="Le piadine">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="piadina.jpg">
+                                    <color key="titleShadowColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Low-KS-Xqs" kind="push" identifier="piadine" id="BPh-Ct-n11"/>
@@ -273,37 +274,37 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taglieri" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-Je-F3o">
                                 <rect key="frame" x="74" y="130" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hamburger" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uum-jn-j2D">
                                 <rect key="frame" x="216" y="130" width="120" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dessert" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hH-eZ-1BF">
                                 <rect key="frame" x="216" y="401" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stuzzichi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qit-vM-a1h">
                                 <rect key="frame" x="70" y="401" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rustici" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ojx-Dv-vpY">
                                 <rect key="frame" x="74" y="310" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Piadine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQr-at-YbO">
                                 <rect key="frame" x="216" y="310" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secondi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7v-pr-MjA">
@@ -322,6 +323,7 @@
                     <navigationItem key="navigationItem" id="AkJ-JJ-6qh">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="Kr0-DB-xNg">
                             <inset key="imageInsets" minX="-12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" cyan="0.46000000000000002" magenta="0.84999999999999998" yellow="0.76000000000000001" black="0.70999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                             <connections>
                                 <action selector="openMenuButtonPressed:" destination="V7i-4q-bKZ" id="Kha-ZA-sP1"/>
                             </connections>
@@ -333,10 +335,10 @@
             </objects>
             <point key="canvasLocation" x="997" y="360"/>
         </scene>
-        <!--Product View Controller-->
+        <!--View Controller-->
         <scene sceneID="CAL-nR-9WK">
             <objects>
-                <viewController id="Low-KS-Xqs" customClass="ProductViewController" sceneMemberID="viewController">
+                <viewController id="Low-KS-Xqs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WeE-ja-ygA"/>
                         <viewControllerLayoutGuide type="bottom" id="QgB-r6-man"/>
@@ -448,10 +450,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sfondoHamburger640x1136.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OJL-uz-TOH">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTj-pl-2hT" customClass="RateView">
-                                <rect key="frame" x="12" y="212" width="250" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lascia qui il tuo commento..." translatesAutoresizingMaskIntoConstraints="NO" id="uHP-3b-kde">
                                 <rect key="frame" x="20" y="66" width="280" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -482,14 +480,14 @@
                                                     <rect key="frame" x="15" y="26" width="29" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DoT-NF-m9D">
                                                     <rect key="frame" x="15" y="44" width="43" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -511,6 +509,10 @@
                                     <action selector="voteButtonPressed:" destination="FpR-rY-pdn" eventType="touchUpInside" id="dwp-MS-PRG"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTj-pl-2hT" customClass="RateView">
+                                <rect key="frame" x="12" y="212" width="250" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -577,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fkX-fW-5XS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="1042"/>
+            <point key="canvasLocation" x="630" y="1106"/>
         </scene>
         <!--Contatti View Controller-->
         <scene sceneID="diO-MN-A5c">
@@ -600,6 +602,7 @@
                                     <navigationItem title="I Contatti" id="hlD-Xo-GpE">
                                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="VYG-ft-3cR">
                                             <inset key="imageInsets" minX="-12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <color key="tintColor" cyan="0.46000000000000002" magenta="0.84999999999999998" yellow="0.76000000000000001" black="0.70999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                             <connections>
                                                 <action selector="openMenuButtonPressed:" destination="WJs-Ch-0Y5" id="eXj-7x-eRg"/>
                                             </connections>
@@ -610,7 +613,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Per info e prenotazioni: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLf-U7-1yz">
                                 <rect key="frame" x="13" y="132" width="188" height="44"/>
                                 <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwY-EP-r46">
@@ -658,7 +661,7 @@ DOMENICA                              18.00-01.00</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXi-KO-6oz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="607" y="1717"/>
+            <point key="canvasLocation" x="983" y="1637"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="nYe-9c-KRH">
@@ -821,6 +824,7 @@ DOMENICA                              18.00-01.00</string>
                     <navigationItem key="navigationItem" id="en1-bL-FWQ">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="sxC-xQ-Fro">
                             <inset key="imageInsets" minX="-12" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" cyan="0.46000000000000002" magenta="0.84999999999999998" yellow="0.76000000000000001" black="0.70999999999999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                             <connections>
                                 <action selector="openMenuButtonPressed:" destination="xdY-WT-LDV" id="DUR-AB-TJQ"/>
                             </connections>
@@ -833,7 +837,7 @@ DOMENICA                              18.00-01.00</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LmY-kp-xnq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="997" y="-1011"/>
+            <point key="canvasLocation" x="1009" y="-1855"/>
         </scene>
         <!--News Detail View Controller-->
         <scene sceneID="gHg-8A-zb8">
@@ -880,7 +884,7 @@ DOMENICA                              18.00-01.00</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UeE-Z2-WOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506" y="-1011"/>
+            <point key="canvasLocation" x="1514" y="-1855"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="usf-8X-Mrh">
@@ -899,7 +903,7 @@ DOMENICA                              18.00-01.00</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LpX-S1-uRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="-1011"/>
+            <point key="canvasLocation" x="517" y="-1863"/>
         </scene>
         <!--Beers Page View Controller-->
         <scene sceneID="8UQ-vy-6tJ">
@@ -916,7 +920,7 @@ DOMENICA                              18.00-01.00</string>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ItU-9D-ziY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506" y="-350"/>
+            <point key="canvasLocation" x="1506" y="-1154"/>
         </scene>
         <!--Dettaglio Birra View Controller-->
         <scene sceneID="mkU-x4-mfX">
@@ -955,7 +959,7 @@ DOMENICA                              18.00-01.00</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vnZ-oN-5zb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="-350"/>
+            <point key="canvasLocation" x="1958" y="-1154"/>
         </scene>
         <!--Product Page View Controller-->
         <scene sceneID="Nod-9F-93W">
@@ -1085,14 +1089,15 @@ DOMENICA                              18.00-01.00</string>
     </scenes>
     <resources>
         <image name="app_beerstro_SFONDO640X1136.jpg" width="640" height="1136"/>
-        <image name="hamburger.png" width="57" height="57"/>
+        <image name="hamburger.png" width="500" height="65"/>
         <image name="iDessert.png" width="57" height="57"/>
         <image name="iPanini.png" width="57" height="57"/>
         <image name="iSecondi.png" width="57" height="57"/>
         <image name="iTaglieri.png" width="57" height="57"/>
         <image name="logo_fb" width="50" height="50"/>
-        <image name="menu.png" width="40" height="44"/>
+        <image name="menu.png" width="40" height="40"/>
         <image name="menuSelezione640X1136.jpg" width="640" height="1136"/>
+        <image name="piadina.jpg" width="57" height="57"/>
         <image name="sfondoCucina640x1136.jpg" width="640" height="1136"/>
         <image name="sfondoHamburger640x1136.jpg" width="640" height="1136"/>
         <image name="stuzzichi.png" width="57" height="57"/>
@@ -1103,6 +1108,6 @@ DOMENICA                              18.00-01.00</string>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="foJ-3I-3RD"/>
+        <segue reference="JdP-ee-9OP"/>
     </inferredMetricsTieBreakers>
 </document>

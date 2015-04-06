@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSString *nome;
 @property (strong, nonatomic) NSString *descrizione;
 @property (strong, nonatomic) NSString *immagine;
-@property (strong, nonatomic) NSString *disponibilita;
+
+- (void)logDessert;
 
 @end

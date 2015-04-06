@@ -8,17 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum : NSUInteger {
-    Taglieri,
-    Hamburger,
-    Secondi,
-    Dessert,
-    Panini,
-    Stuzzichi,
-    Rustici,
-    Piadine
-} TipoCucina;
-
 @interface ProductViewController : UIViewController
 {
     TipoCucina tp;
